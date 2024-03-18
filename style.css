@@ -1,0 +1,102 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+}
+#Head {
+    background-color: #007BFF;
+}
+.Name {
+    margin-left: 350px;
+    height: 60px;
+    width: 500px;
+    font-size: 50px;
+    color: white;
+    background-color: #007BFF;
+    border: 0cap;
+    font-weight: bold;
+    text-align: center;
+}   
+.intro{
+    margin-left: 350px;
+    height: 60px;
+    width: 500px;
+    font-size: 15px;
+    color: white;
+    background-color: #007BFF;
+    border: 0cap;
+    text-align: center;
+} 
+.Name::placeholder{
+    color: white;
+}
+.intro::placeholder {
+    color: white;
+}
+h2 {
+    color: #007BFF;
+}
+.Skills-Description{
+    height: 50px;
+    width: 400px;
+    background-color: gainsboro;
+    border: 0cap;
+}
+.Skills-Description::placeholder {
+    color: black;
+}
+#Projects {
+    border: 1px solid;
+    height: 100px;
+    width: 1250px;
+}
+.Project-title{
+    border: 0;
+    width: 500px;
+    font-weight: bold;
+}
+.Project-title::placeholder{
+    color: black;
+    font-weight: bold;
+}
+.Project-description {
+    border: 0;
+    height: 60px;
+    width: 500px;
+}
+.Project-description::placeholder {
+    color: black;
+}
+#Contact {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Contact-Name{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 300px;
+}
+.Contact-Email{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 300px;
+}
+.Contact-Message{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 305px;
+}
+.button {
+    margin-top: 10px;
+    height: 40px;
+    width: 310px;
+    color: white;
+    background-color: #007BFF;
+    border: 0;
+}
